@@ -34,12 +34,21 @@ body {
 
 .main-header > div {
     display: inline-block;
+    vertical-align: center;
+}
+
+.main-header__brand {
+   color: 0e4f1f;
+   text-decoration: none; /* remove underline */
+   font-weight: bold;
+   font-size: 20px;
 }
 
 .main-nav {
     display: inline-block;
-    width: calc(100% - 54px); /* means take full width of parent otherwise in child as inline take as much as space it need also minus the another div width*/
+    width: calc(100% - 74px); /* means take full width of parent otherwise in child as inline take as much as space it need also minus the another div width*/
     text-align: right;
+    vertical-align: center;
 }
 
 .main-nav__items {
